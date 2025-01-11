@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
             name: name,
             email: email,
             message: message
-        }).then(() => {
+        }, 'AYaDUftUCG0N9fVH8').then(() => {
             alert('Your message has been sent successfully!');
             contactForm.reset();
         }).catch((error) => {
